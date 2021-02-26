@@ -1,0 +1,168 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FFD - Foto-Freunde-Düsseldorf -Home-</title>
+<style type="text/css">
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background: url(Bilder/hg.jpg) repeat-x #e2f0ff;
+
+}
+
+img {
+	padding-top: 10px;
+}
+
+#zentrieren {
+	margin: 30px auto;
+	width: 820px;
+	border: 7px solid #5192db;
+}
+
+#kopf {
+	height: 100px;
+	background-color: #e2f0ff;
+}
+
+
+#navi {
+	background-color:#5192db;
+	text-align:center;
+	padding: 20px 0px;
+	height: 30px;
+}
+
+/* Navigationsmenü oben....
+*/
+#navi li {
+	font-size: 1.9em;
+	font-weight:bold;
+	display:inline;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* Navigationsmenü oben Schriftformatierungen....
+*/
+#navi li a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#navi li a:hover {
+	background-color:yellow;
+	color:#5192db;
+}
+
+#InhaltGesamt {
+	overflow: hidden;
+	background:#e2f0ff;
+}
+
+#LinkeSpalte {
+	float:left;
+	width: 590px;
+	margin: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color:#5192db;
+}
+
+#LinkeSpalte p.fett:first-letter {
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2.8em;
+	float:left;
+	padding-right:10px;
+}
+
+
+#RechteSpalte {
+	text-align:center;
+	float:right;
+	width:200px;
+}
+
+#FussZeile {
+	background-color:#5192db;
+	height: 30px;
+	padding-top: 15px;
+}
+
+#FussZeile a {
+	clear:both;
+	height: 30px;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding: 15px;
+	text-decoration:none;
+}
+
+.Abstand {
+	margin-left: 80px;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<div id="zentrieren">
+
+	<div id="kopf">
+    	<img src="Bilder/Logo.jpg" alt="" width="800" height="100" />
+    </div>
+  	<div id="navi">
+  		  <ul>
+  		    <li><a href="#">News</a></li>
+  		    <li class="Abstand"><a href="#">Galerie</a></li>
+  		    <li class="Abstand"><a href="#">Puzzle</a></li>
+  		    <li class="Abstand"><a href="mailto:info@ffd.de">Kontakt</a></li>
+      	</ul>
+	</div>
+  	<div id="InhaltGesamt">
+
+        <div id="LinkeSpalte">
+              <p class="fett">Der Verein „Fotofreunde
+              Düsseldorf e.V.“ wurde im Jahr 2010 neu gegründet.
+              Die Mehrheit unserer Mitglieder arbeitet aktiv mit der digitalen Technik.
+                Ausgewähltetozeitschriften sind von uns abonniert und halten uns auf
+                dem neuesten technischen und künstlerischen Stand.</p>
+              <p>&nbsp;</p>
+              <p> Auch die Geselligkeit kommt nicht zu kurz. Wir treffen uns nach Absprache
+                an Wochenenden zu Fotowanderungen. </p>
+              <p>&nbsp;</p>
+              <p>Sind Sie interessiert oder gar
+                neugierig geworden, dann besuchen Sie uns doch einfach einmal unverbindlich.
+
+                Wir würden uns über Ihr Kommen freuen. Wir treffen uns jeden Mittwoch
+                um 20.00 Uhr im Schulgebäude Kirchfeldstr. 94-96, Düsseldorf</p>
+        </div>
+
+        <div id="RechteSpalte">
+            <img src="Bilder/sommer.jpg" alt="" width="100" height="100" />
+            <img src="Bilder/Herbst.jpg" alt="" width="100" height="100" />
+            <img src="Bilder/winter.jpg" alt="" width="100" height="100" />
+        </div>
+
+
+    </div>
+
+    <div id="FussZeile"><a href="#">Impressum</a>
+	</div>
+</div>
+
+
+</body>
+</html>
